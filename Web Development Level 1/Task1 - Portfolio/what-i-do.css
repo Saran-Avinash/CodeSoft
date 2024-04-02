@@ -1,8 +1,10 @@
+
+
 .what-i-do-h1{
     width: fit-content;     
    margin: 0 auto;
-    margin-bottom: 4rem;
-    position: relative;
+   margin-bottom: 4rem;
+   position: relative;
 }
 .what-i-do-h1::after{
     content: "";
@@ -23,8 +25,9 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: var(--large-gap);
+    padding: var(--large-padding);
 }
 
 .what-i-do-image img{

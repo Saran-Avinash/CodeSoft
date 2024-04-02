@@ -1,24 +1,4 @@
-:root{
-    --background-color: hsl(0, 0%, 100%);
-    --small-font-size: 1rem;
-    --medium-font-size: 1.3rem;
-    --big-font-size: 3rem;
-    --font-color: hsl(0, 0%, 0%);
-    --font-color-hover: hsl(0, 0%, 70%);
-    ---small-padding: 5px;
-    --padding-10: 10px;
-    --large-padding: 20px;
-    --extra-large-padding: 30px;
-    --font-family: "Roboto", sans-serif;
-    --font-weight-thin: 100;
-    --font-weight-normal: 400;
-    --font-weight-bold: 900;
-    --small-gap: 20px;
-    --medium-gap: 30px;
-    --header-height: 60px;
-    --border-radius-5: 5px;
-    --main-content-margin: 24px;
-}
+ 
 
 *, h1, p{
     color: white;
@@ -39,6 +19,7 @@
     justify-content: center;
     align-items: center;
     gap: var(--medium-gap);
+    padding: var(--large-padding);
 }
 
 .main .main-content h1{
