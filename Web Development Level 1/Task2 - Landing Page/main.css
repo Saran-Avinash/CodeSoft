@@ -16,12 +16,14 @@
 
 *{
     box-sizing: border-box;
+    color: black;
 }
 body{
     margin: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(img/background.jpg);
+    background-color: #b3c7f9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--color-white);
@@ -33,6 +35,8 @@ body{
     display: flex;
     align-items: center;
     border-bottom: thin groove var(--light-grey) ;
+    background-color: hsl(0, 0%, 90%);
+    color: black;
 }
 
 .main-header .logo{
@@ -101,16 +105,21 @@ body{
     
     .container #child4 p{
         font-size: var(--font-size-1-5);
-        color: var(--light-grey);
+        color: black;
         margin-top: var(--margin-30);
     }
     .container #child4 a{
         text-decoration: none;
         color:chocolate;
-        padding: var(--padding-20);
+        padding: 0;
         font-size: var(--font-size-2);
         position: relative;
-        top: 20px;
+        top: 0;
+
+    }
+    button{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
     }
 
     
